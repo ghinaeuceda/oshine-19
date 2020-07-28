@@ -1,0 +1,244 @@
+@import url(https://fonts.google.com/specimen/Open+Sans/?query=open);
+:root{
+	--color-morado:#5c0bb7;	
+	--color-gris:#f6f6f6
+	--color-gris-claro: #fdfdfd;
+	--color-hover-gris:#efefef;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #212529;
+	line-height: 1.8 !important;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky{
+	background-color: #000000 !important;
+}
+.lista-redes a{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 100%;
+	background-color: #ccc;
+	color: #fff;
+	display: block;
+}
+.lista-redes li{
+	padding: 10px;
+}
+.lista-redes .facebook{
+	background-color: #3b5998;
+}
+.lista-redes .twitter{
+background-color: #0c9aca;
+}
+#hero{
+	background-image: url("../img/oshine-v19-intro.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: center;
+	color: #fff;
+	height: 100vh;
+}
+#hero h1{
+	font-size: 70px;
+	font-weight: 800;
+	margin-bottom: 5%;
+	padding-top: 15%;
+}
+#hero h2{
+	font-size: 20px;
+	margin-bottom: 5%
+}
+.btn-morado{
+	background-color: var(--color-morado);
+	text-transform: uppercase;
+	padding: 15px 35px;
+	border-radius: 40px;
+	border: 3px solid var(--color-morado);
+	font-size: 14px;
+	font-weight: 600;
+}
+.btn-about{
+	background-color: transparent;
+	text-transform: uppercase;
+	padding: 15px 35px;
+	border-radius: 40px;
+	border: 3px solid #fff;
+	font-size: 14px;
+	font-weight: 600;
+	margin-right: 20px;
+}
+.btn-about:hover{
+	background-color: var(--color-morado);
+	border-color: var(--color-morado);
+}
+.overlay-hero{
+	background-color: rgba(0,0,0,0.80);
+	height: 100%;
+}
+#about{
+	background-color: var(--color-morado);
+	padding: 7% 0;
+	color: #fff;
+	text-align: center
+}
+#about p{
+	font-weight: 400;
+	font-size: 32px;
+	
+}
+.titulo{
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 5%;
+}
+#features{
+	text-align: center;
+}
+#features article{
+	padding: 5% 40px;
+	color: #7B7B7B;
+}
+#features article:hover{
+	background-color: var(--color-hover-gris) !important;
+}
+#features article:first-child, 
+#features article:last-child{
+	background-color: var(--color-gris);
+}
+#features article:nth-child(2){
+	background-color: var(--color-gris-claro);
+}
+#features article h3{
+	color: #222;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 5%;
+}
+#features article i{
+	color: var(--color-morado);
+	font-size: 30px;
+}
+.section{
+	padding: 60px 0;
+}
+.subtitulo{
+	color: #2d2d2d;
+	font-size: 17px;
+	text-align: center;
+}
+.titulo{
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 5%;
+	text-align: center;	
+}
+#team .titulo{
+	margin-bottom: 2%
+}
+#team{
+	text-align: center;
+}
+#team h4{
+	color: #2d2d2d;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 4% 0;
+}
+#team h5{
+	color: #2d2d2d;
+	font-size: 14px;
+	margin: 3% 0;
+}
+#team ul a:hover{
+	color: var(--color-morado);
+}
+#team img{
+	filter: grayscale(1);
+}
+#team img:hover{
+	transition: all 0.3s ease-in-out;
+	filter: grayscale(0)
+}
+#love{
+	background-image: url("../img/bg-parallax.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+	color: #fff;
+	padding: 5% 0;
+	filter: brightness(-1)
+}
+
+.love i{
+	font-size: 22px;
+	margin-bottom: 35px;
+	color: var(--color-morado);
+}
+
+#love h3{
+	font-size: 18px;
+}
+
+.corazon{
+	color: var(--color-morado);
+}
+
+#redefine{
+	background-color: #ECF0f1;
+	text-align: center;
+}
+
+#redefine p{
+	text-align: left;
+	margin-right: 30px;
+}
+
+#redefine h3,p{
+	margin-top: 10%;
+}
+.btn-gris{
+	background-color: var(--color-gris);
+	text-transform: uppercase;
+	padding: 15px 35px;
+	border-radius: 40px;
+	border: 3px solid var(--color-gris);
+	font-size: 14px;
+	font-weight: 600;
+}
+.btn-gris:hover{
+	background-color: var(--color-morado);
+	text-transform: uppercase;
+	padding: 15px 35px;
+	border-radius: 40px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+#brands h2{
+	margin-top: 10px;
+	font-weight: 600;
+	margin-left: 50px;
+}
+#brands p{
+	margin-top: -5px;
+	margin-right: 100px;
+	margin-left: 50px;
+}
+
